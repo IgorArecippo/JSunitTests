@@ -41,5 +41,6 @@ const productDetails = (firstProduct, secondProduct) => [
     },
   },
 ];
-
+// console.log(productDetails('Alcool gel', 'Alcool gel'));
+console.log(Array.isArray(productDetails));
 module.exports = productDetails;
